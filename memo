@@ -1,0 +1,13 @@
+-.remove(int i) でリストからの削除
+--total-subtotalで差分を計算
+-購入確定商品の登録用リスト
+-商品名・サイズラベルのリスト初期化
+--List<Product>hogehoge = (List<Product>)session.getAttrivute("hogehoge");//既にSession生成済みのリストを定義
+--if(hogehoge==null){//リストがなければ新規生成
+  List<>hogehoge =new ArrayList<>();
+  try(File...){
+  }
+  catch(IOException){
+  }
+  request.setAttrivute("hogehoge",hogehoge);
+  }
